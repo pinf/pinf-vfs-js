@@ -1,0 +1,19 @@
+{
+  "name": "pinf-vfs-js",
+  "version": "0.1.0",
+  "pm": "sm",
+  "publish": true,
+  "main": "./lib/vfs.js",
+  "dependencies": {
+    "fs-extra": "~0.6.0"
+  },
+  "mappings": {
+  	"pinf-proxy": "github.com/pinf/pinf-proxy-js/~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
