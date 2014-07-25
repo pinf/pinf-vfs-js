@@ -3,8 +3,8 @@ const PATH = require("path");
 const FS = require("fs-extra");
 const ASSERT = require("assert");
 const VFS = require("..");
-const PACKAGE_INSIGHT = require("pinf/node_modules/pinf-it-package-insight");
-const PINF = require("pinf");
+const PACKAGE_INSIGHT = require("pinf-for-nodejs/node_modules/pinf-it-package-insight");
+const PINF = require("pinf-for-nodejs");
 const HTTP = require("http");
 const URL = require("url");
 
